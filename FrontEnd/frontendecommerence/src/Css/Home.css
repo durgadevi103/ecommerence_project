@@ -1,0 +1,41 @@
+.hole{
+    background-color: lightskyblue;
+}
+
+
+.main_top{
+    display: flex;
+    padding-inline: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.main_left{
+    max-width: 50%;
+    margin-top: 100px;
+}
+.main_left h2{
+    font-size: 30px;
+    color: gray;
+}
+
+.main_left h1{
+    font-size: 4.5rem;
+}
+
+.main_right{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-height: 50%;
+    object-fit: contain;
+}
+
+#explore{
+    margin-top: 40px;
+    margin-left:250px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
