@@ -32,13 +32,13 @@ const HairCare = () => {
 
 
   return (
-    <div id='haircare back'>
+    <div id='haircareback'>
 
 <h1 id='topic'>HAIRCARE PRODUCTS</h1>
 
             <div className='container mt-5'>
         <span className='product'>oil's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart1.map((user,index) => (
@@ -61,7 +61,7 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Shamphoo's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart2.map((user,index) => (
@@ -83,7 +83,7 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Conditioner's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart3.map((user,index) => (
@@ -106,7 +106,7 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Serum's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart4.map((user,index) => (

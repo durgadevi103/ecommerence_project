@@ -35,12 +35,12 @@ const SkinCare = () => {
 
 
   return (
-    <div id='skincare back'> 
+    <div id='skincareback'> 
 
 <h1 id='topic'>SKINCARE PRODUCTS</h1>
 <div className='container mt-5'>
         <span className='product'>Cleanser's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart1.map((user,index) => (
@@ -63,7 +63,7 @@ const SkinCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Toner's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart2.map((user,index) => (
@@ -86,7 +86,7 @@ const SkinCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Moisturizer's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart3.map((user,index) => (
@@ -108,7 +108,7 @@ const SkinCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Lotion's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart4.map((user,index) => (
@@ -131,7 +131,7 @@ const SkinCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Sunscreen's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart5.map((user,index) => (

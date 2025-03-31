@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Navbar, Nav, Offcanvas, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '/src/Css/Navbar.css';
+import logo1 from "/src/assets/Mylogo.jpeg"
 
 const NavbarDA = ({ cart }) => {
   const [show, setShow] = useState(false);
@@ -19,8 +20,8 @@ const NavbarDA = ({ cart }) => {
     <Navbar expand="lg" className="navblog">
       <Container>
         <Navbar.Brand href="#home" className="navname">
-          <img className="navimg" src="../src/assets/Mylogo.jpeg" alt="DA's Cares" />
-          DA'S CARES
+          <Link to="/"><img className="navimg text-decoration-none" src={logo1} alt="DA's Cares" />
+          </Link>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -58,11 +59,11 @@ const NavbarDA = ({ cart }) => {
             <p>Your Cart is Empty</p>
           ) : (
             carts.map((item, index) => (
-              <Card key={index} className="mb-3">
-                <Card.Img variant="top" src={item.product_image.startsWith(baseURL) ? item.product_image : baseURL + item.product_image} />
+              <Card key={index} className=" align-items-center mb-3 w-50">
+                <Card.Img variant="top" src={item.product_image.startsWith(baseURL) ? item.product_image : baseURL + item.product_image} className='addtocart_image' />
                 <Card.Body className="text-center">
-                  <Card.Title>{item.product_name}</Card.Title>
-                  <Card.Text>Price: {item.product_price}</Card.Text>
+                  <Card.Title className='addtocart_name'>{item.product_name}</Card.Title>
+                  <Card.Text className='addtocart_price'>Price: {item.product_price}</Card.Text>
                   <Button variant="primary">Add To Cart</Button>
                 </Card.Body>
               </Card>

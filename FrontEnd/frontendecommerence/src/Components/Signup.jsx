@@ -57,20 +57,20 @@ const Signup = () => {
             <form method='post' onSubmit={handle_submit}>
             <div className="mb-3">
                 <label className="form-label" >Username</label>
-                <input name='username' type="text" className="form-control" value={form.username} onChange={handle_form} />
+                <input name='username' placeholder='Enter your name' type="text" className="form-control" value={form.username} onChange={handle_form} />
               </div>
               <div className="mb-3">
                 <label className="form-label">Email</label>
-                <input name='email' type="email" className="form-control"  value={form.email} onChange={handle_form}/>
+                <input name='email' placeholder='Enter your email' type="email" className="form-control"  value={form.email} onChange={handle_form}/>
               </div>
               <div className="mb-3">
                 <label className="form-label">Password</label>
-                <input name='password' type="password" className="form-control"  value={form.password} onChange={handle_form}/>
+                <input name='password' placeholder='Enter your password' type="password" className="form-control"  value={form.password} onChange={handle_form}/>
               </div>
 
               <div className="mb-3">
                 <label className="form-label">Confirm Password</label>
-                <input name='confrimPassword' type="password" className="form-control" value={form.confrimPassword} onChange={handle_form} />
+                <input name='confrimPassword' placeholder='Enter your password' type="password" className="form-control" value={form.confrimPassword} onChange={handle_form} />
               </div>
               
               <button type="submit" className="btn btn-primary w-100" >Signup</button>

@@ -1,29 +1,39 @@
-.foot-icons{
-   margin-right: 20px;
-   color: white;
+/* Footer Styling */
+.footercontent {
+    background-color: #007bff;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(167, 171, 174);
+    padding: 20px;
+    text-align: center;
 }
+
+#footimage1 {
+    width: 100px;
+    height: 85px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.footercontent h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.foot-icons{
+    padding: 15px;
+    margin-left: -25px;
+    
+}
+
 .foot-icons:hover{
     color: black;
-}
-.socme{
-    margin-top: -10px;
+    cursor: pointer;
 }
 
-.category h5{
-    font-size: 17px;
-}
-
-.category a{
+#footer-list{
     text-decoration: none;
-    color:black;
-
-}
-
-.categor{
-    color: red;
-    font-size: 20px;
-    margin-right: 10px;
-}
-.container-fluid{
-    background-color:  #007bff;
+    color: white;
 }

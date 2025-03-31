@@ -44,11 +44,11 @@ const Cosmetics = ({addToCart}) => {
     // }
 
   return (
-    <div id='cosmetics back'> 
+    <div id='cosmeticsback'> 
 <h1 id='topic'>COSMETICS PRODUCTS</h1>
 <div className='container mt-5'>
         <span className='product'>Lipstick's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart1.map((user,index) => (
@@ -71,7 +71,7 @@ const Cosmetics = ({addToCart}) => {
 
             <div className='container mt-5'>
         <span className='product'>Kajal's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart2.map((user,index) => (
@@ -94,7 +94,7 @@ const Cosmetics = ({addToCart}) => {
 
             <div className='container mt-5'>
         <span className='product'>Eyeliner's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart3.map((user,index) => (
@@ -116,7 +116,7 @@ const Cosmetics = ({addToCart}) => {
 
             <div className='container mt-5'>
         <span className='product'>Maskara's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart4.map((user,index) => (
@@ -139,7 +139,7 @@ const Cosmetics = ({addToCart}) => {
 
             <div className='container mt-5'>
         <span className='product'>Powder's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart5.map((user,index) => (
@@ -162,7 +162,7 @@ const Cosmetics = ({addToCart}) => {
 
             <div className='container mt-5'>
         <span className='product'>Spray's</span>
-            <div className='row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
             
             {
                 newcart6.map((user,index) => (
