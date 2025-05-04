@@ -38,12 +38,12 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>oil's</span>
-            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row card-container justify-content-center'>
             
             {
                 newcart1.map((user,index) => (
                   <div key={index} className='col p-4 mt-4 '>
-                    <Card  className='align-items-center text-center  '>
+                    <Card  className='align-items-center text-center main-card '>
                         <Card.Img variant="top" src={user.product_image} style={{width:"100%",height:"180px",padding:"8px"}}/>
                         <Card.Body id='ver-card' >
                         <Card.Title id='pro-name'>{user.product_name}</Card.Title>
@@ -61,12 +61,12 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Shamphoo's</span>
-            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row card-container justify-content-center'>
             
             {
                 newcart2.map((user,index) => (
                   <div key={index} className='col p-4 mt-4 '>
-                    <Card  className='align-items-center text-center  '>
+                    <Card  className='align-items-center text-center main-card  '>
                         <Card.Img variant="top" src={user.product_image} style={{width:"100%",height:"180px",padding:"8px"}}/>
                         <Card.Body id='ver-card' >
                         <Card.Title id='pro-name' >{user.product_name}</Card.Title>
@@ -83,12 +83,12 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Conditioner's</span>
-            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row card-container justify-content-center'>
             
             {
                 newcart3.map((user,index) => (
                   <div key={index} className='col p-4 mt-4 '>
-                    <Card  className='align-items-center text-center  '>
+                    <Card  className='align-items-center text-center main-card  '>
                         <Card.Img variant="top" src={user.product_image} style={{width:"100%",height:"180px",padding:"8px"}}/>
                         <Card.Body id='ver-card' >
                         <Card.Title id='pro-name'>{user.product_name}</Card.Title>
@@ -106,12 +106,12 @@ const HairCare = () => {
 
             <div className='container mt-5'>
         <span className='product'>Serum's</span>
-            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-6 justify-content-center'>
+            <div className='row card-container justify-content-center'>
             
             {
                 newcart4.map((user,index) => (
                   <div key={index} className='col p-4 mt-4 '>
-                    <Card  className='align-items-center text-center  '>
+                    <Card  className='align-items-center text-center main-card  '>
                         <Card.Img variant="top" src={user.product_image} style={{width:"100%",height:"180px",padding:"8px"}}/>
                         <Card.Body id='ver-card' >
                         <Card.Title id='pro-name'>{user.product_name}</Card.Title>
